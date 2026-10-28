@@ -1,0 +1,15 @@
+Experiment 8: Dynamic Memory Allocation in C
+
+Steps:
+Open the Ubuntu terminal.
+Create the C program using nano expt8.c.
+Write the C program for dynamic memory allocation using malloc() and signal handling.
+Save the file using Ctrl + O, press Enter, and exit using Ctrl + X.
+Compile the program using gcc expt8.c -o expt8.
+Execute the program using ./expt8 100.
+Observe the memory allocation success message.
+Press Ctrl + C to generate an interrupt and release the allocated memory.
+Check memory usage using free -h.
+Check the process using ps aux | grep expt8.
+Execute free -h again to observe memory usage after termination.
+Result: Dynamic memory allocation and deallocation were performed successfully using malloc(), free(), and signal handling.
