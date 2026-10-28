@@ -1,1 +1,22 @@
+Experiment 6(b)
+Title: Display the lines between start and end line numbers using shell script passed as arguments.  
+
+Steps:
+Open terminal.  
+Create the script: nano expt6b.sh  
+Enter:
+#!/bin/bash
+start="$1"
+end="$2"
+file="$3"
+sed -n "${start},${end}p" "$file"
+```[span_3](start_span)[span_3](end_span)
+
+Save and exit the file: Ctrl + O \rightarrow Enter \rightarrow Ctrl + X  
+Execute the script by passing the starting line, ending line and file name:
+bash lines.sh 3 7 lines.sh (or bash expt6b.sh 3 7 lines.sh)  
+The script displays all the lines from line 3 to line 7 of lines.sh.  
+
+
+
 
