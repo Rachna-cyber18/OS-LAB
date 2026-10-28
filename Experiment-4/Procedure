@@ -1,1 +1,33 @@
+Experiment 4
+Title: To study and execute Linux process management commands and use Vi and Nano text editors for creating, editing and managing text files in Ubuntu Linux.  
+
+Steps:
+(A) Process Management Commands:
+Open terminal in Ubuntu.  
+Check running processes \rightarrow ps  
+Display all running processes \rightarrow ps aux  
+Continuously monitor processes \rightarrow top  
+Find a process by name \rightarrow pgrep process-name  
+Terminate a process \rightarrow kill PID  
+Run a process in the background \rightarrow command &  
+View background jobs \rightarrow jobs  
+
+
+(B) Using Nano Editor:
+Create/Open a file: nano test.txt  
+Type some text.  
+Press Ctrl + O \rightarrow Enter to save.  
+Press Ctrl + X to exit.  
+
+
+(C) Using Vi Editor:
+Create/Open a file: vi test.txt  
+Press i to enter insert mode.  
+Type your text and press ESC.  
+Type :wq and press Enter to save and exit.  
+
+
+Result:
+Successfully executed Linux process management commands and used Vi and Nano editors to create, edit, save and manage text files in Ubuntu Linux.
+
 
