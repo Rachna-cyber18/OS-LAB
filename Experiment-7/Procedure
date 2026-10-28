@@ -1,1 +1,17 @@
+Experiment 7(a): Write a shell script and a C program to perform the following string operations: (To extract a substring and length from a given string)
+(b) To find the length of a given string.
+Compare the running time using time command.  
 
+
+Steps:
+Open the Terminal.  
+Create a shell script using nano expt7a.sh.  
+Write a shell script to extract a substring and find its length.  
+Save the file and execute it using bash expt7a.sh.  
+Measure execution time using time bash expt7a.sh.  
+Create a C program file using nano expt7a.c.  
+Write the C program to perform both string operations: substring extraction and string length calculation.  
+Save and compile: gcc expt7a.c -o expt7a.  
+Execute the C program using ./expt7a.  
+Measure execution time using time ./expt7a.  
+Compare the execution times of the shell script and C program using the same input string.
